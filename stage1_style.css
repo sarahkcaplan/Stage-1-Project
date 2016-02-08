@@ -1,0 +1,99 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.Header {
+    display: block;
+   	margin: 4px;
+   	padding: 5px;
+    text-align: center;
+}
+
+#main {
+   min-height: 800px;
+   margin: 0px;
+   padding: 0px;
+   display: -webkit-flex;
+   display:         flex;
+   -webkit-flex-flow: row;
+           flex-flow: row;
+}
+ 
+ .LeftContent {
+   margin: 8px;
+   padding: 10px;
+   border: 1px solid #8888bb;
+   border-radius: 7pt;
+   background: #bbccff;
+   -webkit-flex: 1 1 20%;
+           flex: 1 1 20%;
+   -webkit-order: 1;
+           order: 1;
+}
+
+ .RightContent {
+   margin: 8px;
+   padding: 10px;
+   border: 1px solid #8888bb;
+   border-radius: 7pt;
+   background: #ededed;
+   -webkit-flex: 1 1 80%;
+           flex: 1 1 80%;
+   -webkit-order: 2;
+           order: 2;
+}
+
+.Image {
+	max-width: 500px;
+	max-height: 500px;
+
+}
+
+.Footer {
+ 	display: block;
+   	margin: 8px;
+   	padding: 10px;
+   	min-height: 100px;
+   	border: 1px solid #8888bb;
+   	border-radius: 7pt;
+   	background: #bbccff;
+   
+}
+
+h1 {
+	font-family: 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif;
+	font-size: 48px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 49.5px;
+}
+
+h2 {
+	font-family: 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+}
+
+h3 {
+	font-family: 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 21.8px;
+}
+
+p {
+	font-family: 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
